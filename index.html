@@ -20,11 +20,11 @@
     <![endif]-->
 </head>
 
-<body ng-app="challengeApp">
-    <nav-bar></nav-bar>
+<body ng-app="challengeApp" class="background">
+    <nav-bar nav-bar></nav-bar>
 
     <div ng-controller="mainCtrl" >
-        <div ng-view class="background"></div>
+        <div class="viewport" ng-view></div>
     </div>
     <!-- /.container -->
 
@@ -32,9 +32,12 @@
 
 
     <!--Angular files -->
-
+    <script type="text/javascript" src="scripts/angular.min.js"></script>
     <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="scripts/angular-route.js"></script>
     <script type="text/javascript" src="scripts/modules/tabledirective.js"></script>
+    <script type="text/javascript" src="scripts/modules/router.js"></script>
+    <script type="text/javascript" src="scripts/modules/navBar.js"></script>
 
 
 

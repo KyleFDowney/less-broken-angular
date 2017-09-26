@@ -1,7 +1,11 @@
 .background {
-    background-image: url(../images/jonathan-denney-4798333.jpg);
+    background-image: url(../images/jonathan-denney-47983.jpg);
     position: relative;
     background-size: cover;
+}
+
+.viewport {
+  margin-top: 1em;
 }
 
 .center {
@@ -17,13 +21,13 @@
 .redpill {
     left: 50px;
     margin-top: 96px;
-    margin-right: 193px
+    margin-right: 193px;
 }
 
 .bluepill {
     right: 50px;
     margin-top: 96px;
-    margin-left: 193px
+    margin-left: 193px;
 }
 
 .table {
